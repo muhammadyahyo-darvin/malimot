@@ -1,0 +1,72 @@
+body {
+    background: #27274e;
+    color: #fff; /
+  }
+  .hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url(https://wallpaperaccess.com/full/187161.jpg);
+  }
+  .btn-custom {
+    background-color: #6a11cb;
+    color: rgb(249, 244, 244);
+    border: none;
+  }
+  .btn-custom:hover {
+    background-color: #2575fc;
+  }
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .my-5 {
+    padding: 5%;
+  }
+  .list-group-item {
+    background-color: transparent;
+    color: white;
+  }
+  .card {
+    background-color: transparent; /* Kartochka fonini shaffof qilamiz */
+    border: none; /* Kartochka chegarasini olib tashlaymiz */
+  }
+  .card img {
+    border-radius: 0; /* Agar kerak bo'lsa, rasmning yumaloqlanishini yo'q qilamiz */
+    background-color: transparent; /* Rasm tagidagi fonni shaffof qilamiz */
+  }
+  /* Mobil telefonlar uchun optimallashtirish */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 60px 20px;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .card {
+      margin-bottom: 15px;
+    }
+  }
+  /* Tabletlarga moslash */
+  @media (max-width: 1024px) {
+    .hero {
+      padding: 70px 20px;
+    }
+  }
